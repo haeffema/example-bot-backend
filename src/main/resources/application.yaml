@@ -1,0 +1,14 @@
+logging:
+  level:
+    root: WARN
+    com.discordBot.backend: WARN
+
+spring:
+  application:
+    name: Discord Bot Backend
+  mvc:
+    path match:
+      matching-strategy: ANT_PATH_MATCHER
+
+server:
+  port: 8081
